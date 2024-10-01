@@ -13,7 +13,7 @@ This is a simple graphical Markdown Reader/Editor built using Python's `tkinter`
 
 ## Requirements
 
-- Python 3.x
+- Python 3.10 or Higher
 - `tkinter` (usually pre-installed with Python)
 - `markdown` module
 
