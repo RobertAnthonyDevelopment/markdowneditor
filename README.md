@@ -28,7 +28,7 @@ pip install markdown
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/markdown-editor.git
+    git clone https://github.com/RobertAnthonyDevelopment/markdowneditor.git
     ```
 
 2. Install the dependencies:
