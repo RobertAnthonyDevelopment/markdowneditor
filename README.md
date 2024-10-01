@@ -10,7 +10,7 @@ This is a simple graphical Markdown Reader/Editor built using Python's `tkinter`
 
 - **Markdown Editor**: A text area where users can write or edit Markdown text.
 - **HTML Preview**: A side-by-side HTML output area to view the rendered HTML from Markdown in real-time.
-- **File Operations**: Options to open Markdown files and save the HTML output.
+- **File Operations**: Options to **View** and **Edit** (not **Open**) Markdown files and **Save** the HTML output.
 - **User-friendly Interface**: The interface uses scrollable text areas and buttons for easy Markdown editing and previewing.
 
 ## Requirements
