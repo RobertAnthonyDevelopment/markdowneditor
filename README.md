@@ -2,8 +2,7 @@
 
 ## Overview
 
-This is a simple graphical Markdown Reader/Editor built using Python's `tkinter` library. The application allows users to write Markdown, convert it into HTML, and view the rendered HTML in real-time. Users can also open and save files, making this a useful tool for Markdown-based content creation. 
-
+This is a simple graphical Markdown Reader/Editor built using Python's `tkinter` library. The application allows users to write Markdown, convert it into HTML, and view the rendered HTML in real-time. Users can also open and save files, making this a useful tool for Markdown-based content creation.
 
 ## Features
 
@@ -46,7 +45,40 @@ pip install markdown
 2. **Rendering HTML**: Click the "Render" button to convert the Markdown into HTML. The rendered HTML will appear in the right-side text area.
 3. **File Menu**: 
     - **Save File**: Save the HTML output to an HTML file.
-    - **Open File**: Ignore this Function Copy and Paste existing MD documents into Left Pane
+    - **Open File**: Ignore this function. Copy and paste existing MD documents into the left pane.
+
+## Optional: How to Create an Executable (.exe)
+
+If you're working on macOS and want to create an executable, you can use `PyInstaller`. This step is optional and not required for running the application on your system.
+
+### Steps to Create an Executable:
+
+1. Install `PyInstaller`:
+    ```bash
+    pip install pyinstaller
+    ```
+
+2. Open your terminal and navigate to the project directory:
+    ```bash
+    cd markdowneditor
+    ```
+
+3. Run the following command to create a standalone executable:
+    ```bash
+    pyinstaller --onefile markdown_editor.py
+    ```
+
+    - The `--onefile` option ensures that all required files are bundled into a single executable.
+
+4. After the process completes, the executable will be located in the `dist` directory:
+    - On macOS, the app will be inside this `dist` folder. You can run it by navigating to the folder and opening the executable file.
+
+5. **Run the Executable**: 
+   - Navigate to the `dist` directory and double-click the generated executable file to launch the app.
+
+### Note:
+- This step is entirely optional. You can run the application using Python without creating an executable.
+
 ## Example
 
 1. Write this Markdown in the left text area:
@@ -54,7 +86,7 @@ pip install markdown
    # Welcome
    This is an **example** of a Markdown document.
    ```
-   
+
 2. Click "Render" and the HTML output will be:
    ```html
    <h1>Welcome</h1>
