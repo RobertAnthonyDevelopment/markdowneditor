@@ -1,4 +1,3 @@
-
 # Markdown Reader/Editor
 
 ## Overview
