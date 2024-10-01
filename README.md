@@ -3,7 +3,7 @@
 
 ## Overview
 
-This is a simple graphical Markdown Reader/Editor built using Python's `tkinter` library. The application allows users to write Markdown, convert it into HTML, and view the rendered HTML in real-time. Users can also open and save files, making this a useful tool for Markdown-based content creation. [Download Markdown Editor EXE](https://www.dropbox.com/scl/fi/n3t01cnsmbnck2lhzfeah/markdowneditor?rlkey=bgjavj4yv69c50rjbog2odd5w&st=rvs7w4hr&dl=0)
+This is a simple graphical Markdown Reader/Editor built using Python's `tkinter` library. The application allows users to write Markdown, convert it into HTML, and view the rendered HTML in real-time. Users can also open and save files, making this a useful tool for Markdown-based content creation. 
 
 
 ## Features
