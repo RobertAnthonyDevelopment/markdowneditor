@@ -46,9 +46,8 @@ pip install markdown
 1. **Writing Markdown**: On the left side, you can write Markdown syntax in the text area.
 2. **Rendering HTML**: Click the "Render" button to convert the Markdown into HTML. The rendered HTML will appear in the right-side text area.
 3. **File Menu**: 
-    - **Open File**: Load an existing Markdown file into the editor.
     - **Save File**: Save the HTML output to an HTML file.
-    
+    - **Open File**: Ignore this Function Copy and Paste existing MD documents into Left Pane
 ## Example
 
 1. Write this Markdown in the left text area:
